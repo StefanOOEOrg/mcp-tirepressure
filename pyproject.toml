@@ -9,7 +9,7 @@ description = "MCP server implementing a SRAM-like tire pressure formula (local,
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "StefanOOE" }]
+authors = [{ name = "StefanOOEOrg" }]
 keywords = ["mcp", "model-context-protocol", "tire-pressure", "sram-like", "cycling"]
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -20,6 +20,10 @@ dependencies = ["mcp>=2.0", "httpx>=0.27", "pydantic>=2.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "respx>=0.21", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://github.com/StefanOOEOrg/mcp-tirepressure"
+Issues = "https://github.com/StefanOOEOrg/mcp-tirepressure/issues"
 
 [project.scripts]
 mcp-tirepressure = "mcp_tirepressure.server:main"
