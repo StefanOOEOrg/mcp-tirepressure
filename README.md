@@ -1,6 +1,7 @@
 # mcp-tirepressure
 
 [![CI](https://github.com/StefanOOEOrg/mcp-tirepressure/actions/workflows/ci.yml/badge.svg)](https://github.com/StefanOOEOrg/mcp-tirepressure/actions/workflows/ci.yml)
+[![M8ven Verified](https://m8ven.ai/badge/mcp/stefanooeorg-mcp-tirepressure-1jh6p4?variant=verified)](https://m8ven.ai/mcp/stefanooeorg-mcp-tirepressure-1jh6p4)
 
 Local MCP server (FastMCP, stdio) implementing a SRAM-like tire pressure formula
 as tools for the Hermes Agent.
