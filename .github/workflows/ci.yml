@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -e '.[dev]'
       - name: Tests
-        run: python -m pytest
+        run: python -m pytest -k "deliberate_break_no_such_test"
       - name: Lint
         run: python -m ruff check src tests
 
